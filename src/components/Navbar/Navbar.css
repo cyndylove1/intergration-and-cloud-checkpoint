@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap'); 
+ body{
+    padding: 0;
+    margin: 0;
+    font-family: 'lato',sans-serif;
+    height: 2300px;
+    
+}
+.container{
+    /* background-color: #fff; */
+    height: 70px;
+   
+    
+}
+.main{
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    /* display: block; */
+    position: fixed;
+    z-index: 1;
+    align-items: center;
+}
+.logo{
+    height: 50px;
+    width: 80px;
+    padding: 0 20px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+   
+    /* justify-content: center; */
+    
+}
+ul li{
+    padding: 16px 20px;
+    /* text-align: center; */
+}
+.login{
+    display: flex;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right:2% ;
+    align-items: center;
+    /* padding-left: 10%; */
+}
+button{
+    background-color: rgb(142 ,68 ,173);
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 20px;
+    color: #fff;
+}
+button:hover{
+    background-color: rgb(191,64, 136);
+    transition: 3s;
+}
+.text{
+    background-color: rgb(76,128,90);
+    /* height: 50px; */
+    padding: 2px 0;
+    text-align: center;
+}
+.text h5{
+    color: #fff;
+    font-family: sans-serif;
+    
+}
+a{
+    color: rgb(253,205,10);
+}
+a:hover{
+    color: #A8E2F7;
+}
