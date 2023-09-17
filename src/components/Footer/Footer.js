@@ -3,7 +3,9 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div> 
+    <div>
+        <iframe width="704" height="604" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=524&amp;height=404&amp;hl=en&amp;q=gomycode%20230,alagomeji,yaba,lagos%20Ilford+(map)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href='https://google-map-generator.com/'>Maps Generator</a>
+
         <div className='footer'>
             <div className='footer-content'>
                 <img src={'logo-nextroll.svg'} alt=''/>
